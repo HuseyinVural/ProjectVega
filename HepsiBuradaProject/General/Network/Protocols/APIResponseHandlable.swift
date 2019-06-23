@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Moya
+import Result
 
 protocol APIResponseHandlable {
   func process<T: Decodable>(_ result: Result<Response, MoyaError>, ofType type: T.Type, _ errorLogger: ErrorLoggable) -> APIResult<T>

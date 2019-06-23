@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Moya
+import Result
 
 protocol APIResponseMappable {
   func map<DecodableObject: Decodable>(_ result: Result<Moya.Response, MoyaError>, of type: DecodableObject.Type, _ response: @escaping (APIResult<DecodableObject>) -> Void)
