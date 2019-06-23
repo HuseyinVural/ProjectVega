@@ -1,0 +1,6 @@
+module Pods_HepsiBuradaProject {
+  umbrella header "Pods-HepsiBuradaProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

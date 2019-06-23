@@ -1,0 +1,116 @@
+{
+  "hotDeals": [
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-05-21T11:30:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-08-03T15:24:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-09-08T09:08:55+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-04-02T15:00:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-04-012T15:00:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-04-013T15:00:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-09-25T02:12:43+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-04-16T19:33:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-04-16T23:27:00+03:00"
+    },
+    {
+      "title": "Hot Deal",
+      "expirationDate": "2019-05-22T10:00:00+03:00"
+    }
+  ],
+  "banners": [
+    {
+      "image": {
+        "width": 400,
+        "height": 400,
+        "url": "https://dummyimage.com/400X400/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 200,
+        "url": "https://dummyimage.com/400X200/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 100,
+        "url": "https://dummyimage.com/400X100/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 200,
+        "url": "https://dummyimage.com/400X200/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 100,
+        "url": "https://dummyimage.com/400X100/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 400,
+        "url": "https://dummyimage.com/400X400/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 200,
+        "url": "https://dummyimage.com/400X200/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 100,
+        "url": "https://dummyimage.com/400X100/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 100,
+        "url": "https://dummyimage.com/400X100/e3de81/0010f0.png"
+      }
+    },
+    {
+      "image": {
+        "width": 400,
+        "height": 200,
+        "url": "https://dummyimage.com/400X200/e3de81/0010f0.png"
+      }
+    }
+  ]
+}

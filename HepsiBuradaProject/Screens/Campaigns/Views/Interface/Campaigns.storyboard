@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Campaigns View Controller-->
+        <scene sceneID="4hI-dS-pkR">
+            <objects>
+                <viewController storyboardIdentifier="CampaignsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tBa-SY-HQl" customClass="CampaignsViewController" customModule="HepsiBuradaProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pQe-fF-kuZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aos-Td-vH6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0rJ-dw-tFI">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0rJ-dw-tFI" secondAttribute="trailing" id="4D2-Z9-jhi"/>
+                                    <constraint firstItem="0rJ-dw-tFI" firstAttribute="top" secondItem="Aos-Td-vH6" secondAttribute="top" id="RCb-zX-Jt9"/>
+                                    <constraint firstAttribute="bottom" secondItem="0rJ-dw-tFI" secondAttribute="bottom" id="bhe-se-XYK"/>
+                                    <constraint firstItem="0rJ-dw-tFI" firstAttribute="leading" secondItem="Aos-Td-vH6" secondAttribute="leading" id="reF-Ig-EXH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mIr-yo-uwK" firstAttribute="trailing" secondItem="Aos-Td-vH6" secondAttribute="trailing" id="0nh-kk-CrJ"/>
+                            <constraint firstItem="Aos-Td-vH6" firstAttribute="top" secondItem="mIr-yo-uwK" secondAttribute="top" id="69Q-NC-Bx1"/>
+                            <constraint firstItem="mIr-yo-uwK" firstAttribute="bottom" secondItem="Aos-Td-vH6" secondAttribute="bottom" id="7OO-BD-EvC"/>
+                            <constraint firstItem="Aos-Td-vH6" firstAttribute="leading" secondItem="mIr-yo-uwK" secondAttribute="leading" id="l6w-q6-Psk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mIr-yo-uwK"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="0rJ-dw-tFI" id="Cql-bz-03e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsY-93-12q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="118"/>
+        </scene>
+    </scenes>
+</document>
